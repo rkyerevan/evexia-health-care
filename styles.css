@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    font-family: "open sans";
+}
+
+.container{
+    padding: 8px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px 20px;
+    border-bottom: 1px solid;
+    border-color: #003f51;
+    position: relative;
+}
+
+.header .innerWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.header .logoLink{
+    display: flex;
+    align-items: center;
+
+}
+
+.header .logo{
+    max-width: 95px;
+
+    left: 20px;
+}
+
+/* Header Navigation */
+
+.header .nav{
+    display: none;
+    background-color: #e3e3e3;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.header .navLink{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    padding:  8px 0;
+    border-bottom: 1px solid #003f51;
+    width: 100%;
+    text-align: center;
+}
+
+
+.header .navLink:hover{
+    opacity: .5;
+}
+
+.header .ctaButton{
+    color: #003f51;
+    background-color: #ffc038;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    /* margin: 0 0 0 auto ; */
+    display: flex;
+    align-items: center;
+
+}
+
+/* Burger */
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3px auto 0 0;
+    padding: 0 0 0 10px;
+
+}
+
+.burger .line{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+    border-radius: 2px;
+}
+
+.burger > div:last-child{
+    margin-bottom: 0;
+}
+
+.closeBurger {
+    width: 30px;
+    height: 30px;
+    display: none;
+    margin: 3px auto 0 0;
+    transform: translate(10px, 0);
+    padding: 0 0 0 11px;
+}
+
+.closeBurger .hl{
+    width: 3px;
+    height: 30px;
+    background-color: black;
+    transform: rotate(45deg);
+    border-radius: 10px;
+}
+
+.closeBurger .vl{
+    width: 3px;
+    height: 30px;
+    background-color: black;
+    transform: rotate(90deg);
+    border-radius: 10px;
+    
+}
+
+.header .open{
+    display: flex;
+}
+
+.header .hidden{
+    display: none;
+}
+
+/* Hero */
+
+.heroContainer{
+    display: flex;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    background-color: #15272a;
+    border-radius: 10px;
+
+}
+
+.heroContainer img{
+    width: 100%;
+    object-fit: cover;
+    opacity: .4;
+    border-radius: inherit;
+
+}
+
+.heroContainer .pageTitle{
+    position: absolute;
+    color: #ffc038;
+    bottom: 20px;
+    left: 20px;
+}
+
+/*  */
+
+
+.pageTitle{
+    font-family: "PT Serif", serif;
+    font-size: 50px;
+}

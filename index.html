@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evexia</title>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&family=PT+Sans">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tablet.css" media="all and (min-width: 576px)"/>
+    <link rel="stylesheet" href="desktop.css" media="all and (min-width: 992px)"/>
+    
 
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="innerWrap">
+      <a class="logoLink" href="/index.html"><img
+        class="logo"
+        src="./public/Evexia.png"
+        alt="Evexia Health Care logo"
+        loading="lazy"
+      />
+    </a>
+
+    <div id="Burger" class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <div id="CloseBurger" class="closeBurger">
+      <div class="hl">
+        <div class="vl"></div>
+      </div>
+    </div>
+      
+      <nav id="Menu" class="nav">
+        <a href="" class="navLink">Personal Care</a>        
+        <a href="" class="navLink">Residental Care</a>        
+        <a href="" class="navLink">About Us</a>        
+        <a href="" class="navLink">Contact</a>        
+      </nav>
+      <a href="" class="ctaButton">Senior Care Search</a>
+    </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section>
+      <div class="container">
+        <div class="heroContainer">
+            <img class="heroImg" src="./public/home-hero.webp" alt="">
+            <div class="pageTitle">Elevating Wellness Everywhere</div>
+        </div>
+    
+      </div>
+    </section>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>

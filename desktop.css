@@ -1,0 +1,39 @@
+/* header */
+
+.header{
+
+}
+
+.header .nav {
+    background-color: unset;
+    border: unset;
+    display: flex;
+    justify-content: center;
+    position: unset;
+    flex-direction: unset;
+    top: unset;
+    right: unset;
+    bottom: unset;
+    left: unset;
+    margin: auto;
+    
+}
+
+.header .navLink{
+    border: none;
+    width: unset;
+    padding:  0 16px;
+    
+}
+
+.header .burger{
+    display: none;
+}
+
+.header .closeBurger{
+    display: none;
+}
+
+.header .ctaButton{
+    white-space: nowrap;
+}
